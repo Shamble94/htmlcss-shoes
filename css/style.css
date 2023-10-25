@@ -3,13 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* CONTAINER */
-.container{
-   width: 100%;
-   margin: 0 auto;
-   height: 100vh;
-   position: relative;
+/* STILE MAIN */
+main{
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 /* COLORI BACKGROUND */
 #red{
     background-color: red;
@@ -21,15 +19,24 @@
     background-color: yellow;
 }
 
-/* SOTTO CONTAINER FOTO E TESTO */
-.box{
-    position: absolute;
+/* Tag overlay contenente foto e testo */
+ .overlay{
+    position:absolute;
+    width: 100%;
+    height: 100%;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    text-align: center;
-    font-size: 25px;
 }
+
+/* Container */
+.container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+ }
+
 
 /* COLORI TESTO */
 .text-yellow{
@@ -65,4 +72,16 @@ a{
     text-decoration: none;
     padding: 10px;
     font-size: 25px;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+/* DIMENSIONE IMMAGINE */
+img{
+    max-width: 100%;
+
+}
+
+/* DIMENSIONE TESTO */
+h1{
+    font-size: 65px;
 }

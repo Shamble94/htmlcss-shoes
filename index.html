@@ -3,48 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Scarpe</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+
+    <!-- Header -->
     <header>
+        <!-- Lista Bonus -->
         <ul>
             <li><a href="#red">1</a></li>
             <li><a href="#green">2</a></li>
             <li><a href="#yellow">3</a></li>
-            
         </ul>
     </header>
+    <!-- Fine Header -->
     
-    
-    
-    
-    
+
+    <!-- Main -->
     <main>
-        <div class="container" id="red">
-            <div class="box text-yellow">
-            <img src="./img/01.png" alt="Immagine1">
-                <h1>IL NOSTRO MODELLO <br>DI PUNTA</h1>
+        <!-- Sezione Rossa -->
+        <div id="red">
+            <!-- Container rosso-->
+            <div class="container text-yellow">
+                <!-- Testo e immagine -->
+                <div class="overlay">
+                    <img src="./img/01.png" alt="Immagine1">
+                    <h1>IL NOSTRO MODELLO <br>DI PUNTA</h1>
+                </div>
             </div>
 
         </div>
+        <!-- Sezione Verde -->
+        <div  id="green">
+            <!-- Container verde -->
+            <div class="container text-yellow">
+                <!-- Testo e immmagine -->
+                <div class="overlay">
+                    <img src="./img/02.png" alt="Immagine2">
+                    <h1>IL NOSTRO MODELLO <br> DI PUNTA</h1>
+                </div>
+            </div>
 
-        <div class="container" id="green">
-            <div class="box text-yellow">
-            <img src="./img/02.png" alt="Immagine2">
+        </div>
+        <!-- Sezione gialla -->
+        <div  id="yellow">
+            <!-- Container giallo -->
+            <div class="container text-green">
+                <!-- Testo e immagine -->
+                <img src="./img/03.png" alt="Immagine3">
                 <h1>IL NOSTRO MODELLO <br> DI PUNTA</h1>
             </div>
 
         </div>
-
-        <div class="container" id="yellow">
-            <div class="box text-green">
-            <img src="./img/03.png" alt="Immagine3">
-                <h1>IL NOSTRO MODELLO <br> DI PUNTA</h1>
-            </div>
-
-        </div>
+        <!-- Fine Main -->
     </main>
 </body>
 </html>
