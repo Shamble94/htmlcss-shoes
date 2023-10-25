@@ -3,12 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* CONTAINER */
 .container{
    width: 100%;
    margin: 0 auto;
    height: 100vh;
    position: relative;
 }
+/* COLORI BACKGROUND */
 #red{
     background-color: red;
 }
@@ -18,6 +20,8 @@
 #yellow{
     background-color: yellow;
 }
+
+/* SOTTO CONTAINER FOTO E TESTO */
 .box{
     position: absolute;
     left: 50%;
@@ -26,9 +30,39 @@
     text-align: center;
     font-size: 25px;
 }
+
+/* COLORI TESTO */
 .text-yellow{
     color:yellow
 }
 .text-green{
     color:green
+}
+
+/* SEZIONE HEADER */
+header{
+    position: fixed;
+    right: 0px;
+    top: 30px;
+    z-index: 1;
+}
+
+/* STILE LISTA */
+ul{
+    display: flex;
+    list-style: none;
+    gap: 60px;
+    font-size: 30px;
+    margin-right: 20px;
+}
+li{
+    background-color: white;
+    border-radius: 50%;
+}
+
+/* STILE BONUS */
+a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 25px;
 }
